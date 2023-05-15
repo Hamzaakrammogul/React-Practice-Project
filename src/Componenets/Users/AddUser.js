@@ -45,7 +45,6 @@ const AddUser = (props) => {
     const offErrorHandle = () => {
         setError(null);
     }
-
     return (
         <Wrapper>
             {error && <ErrorModel title={error.title} message={error.message} onConfirm= {offErrorHandle}>
